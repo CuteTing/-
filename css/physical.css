@@ -1,0 +1,112 @@
+@charset "UTF-8";
+article section{
+    padding: 0 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+article section .left{
+    width: 251px;
+    height: 249px;
+}
+article section.info{
+    height: 500px;
+}
+article section .sec-left{
+    width: 500px;
+    height: 400px;
+}
+.sec-left img{
+    width: 457px;
+    height: 353px;
+}
+article section div.sec-right{
+    height: 400px;
+    line-height: 35px;
+}
+article section div.sec-right .title{
+    border-bottom: 2px solid #ccc;
+}
+article section .right{
+    width: 700px;
+    height: 200px;
+    line-height: 40px;
+    color: #606060;
+    font-size: 16px;
+    position: relative;
+}
+article section .right a{
+    display: inline-block;
+    width: 179px;
+    height: 51px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url("../img/h_huodong/btn_wyyy.gif") no-repeat;
+}
+.testItmes{
+    height: 500px;
+    padding: 0 150px;
+}
+.testItmes .tI_title{
+    width: 1000px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+.testItmes .tI_title p{
+    width: 100px;
+    font-size: 18px;
+    border-bottom: 4px #FFD644 solid;
+}
+.testItmes ul.itmes{
+    width: 1050px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testItmes ul.write{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 50px;
+}
+.testItmes ul li{
+    float: none;
+}
+.testItmes ul li input{
+    border-radius: 5px;
+}
+.testItmes ul li input[type="text"]{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 5px #DCDCDC;
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+    background: white;
+}
+.testItmes ul li input[type="submit"]{
+    width: 100px;
+    height: 45px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 5px #DCDCDC;
+    background: #F4F4F4;
+    outline: none;
+}
+.testItmes ul.write span{
+    width: 300px;
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.testItmes ul.write span.green{
+    color: green;
+}

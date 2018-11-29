@@ -1,0 +1,93 @@
+@charset "UTF-8";
+section{
+    width: 1000px;
+    margin: 0  auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+article,section,section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section ul li{
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+section ul li:first-child{
+    height: 50px;
+    font-size: 20px;
+    width: 1000px;
+}
+section ul li img{
+    width: 558px;
+    height: 443px;
+}
+section ul li p{
+    padding-top: 10px;
+}
+section div.paragraph{
+    padding: 0 150px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+section div.paragraph p{
+    margin-bottom: 20px;
+}
+article div.about{
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    margin-bottom: 50px;
+}
+article div.about span,
+.art-paragraph span.p-tit,
+.paragraph span.p-tit{
+    width: 1200px;
+    display:inline-block;
+    padding-left: 15px;
+    height: 50px;
+    border-left: 8px solid #e8cc0c;
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 50px;
+
+}
+article div.about input[type="text"]{
+    background: #ebd99b;
+    width: 1200px;
+    height: 200px;
+    margin-top: 80px;
+    outline: none;
+    border: none;
+}
+input[type="submit"]{
+    background: #dfbf44;
+    width: 60px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+article section .food{
+    text-align: center;
+}
+article section .food p:first-child{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+article section .food p{
+    text-align: left;
+    width: 640px;
+    line-height: 20px;
+    margin: 15px 0;
+    font-size: 14px;
+}

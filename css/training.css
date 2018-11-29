@@ -1,0 +1,267 @@
+@charset "UTF-8";
+article{
+    margin-bottom: 50px;
+}
+article section{
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+article section ul.left{
+    width: 200px;
+    margin-right: 10px;
+}
+article section ul.left li{
+    width: 180px;
+    float: none;
+}
+section ul.left .sec-title{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddb219;
+}
+section ul.left .sec-title a{
+    padding: 2px 8px;
+    margin-right: 10px;
+}
+section ul.left .sec-title a:first-child{
+    color: #e8c64e;
+    background: #313030;
+}
+section ul.left .sec-title a:last-child{
+    background: #e8c64e;
+    color: #313030;
+}
+section ul.left .lesson{
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 10px 0;
+    line-height: 20px;
+    text-align: center;
+}
+section ul.left .lesson a{
+    color: white;
+}
+section ul.left .le1{
+    background: #e8c64e;
+    margin-top: 10px;
+}
+section ul.left .le2{
+    background: #383838;
+}
+section ul.left .le3{
+    background: #afafaf;
+}
+section ul.left .le4{
+    background: #c65f5a;
+}
+section ul.left .le5{
+    background: #fa8754;
+}
+section ul.left .sec-title2{
+    background: #f2f2f2;
+    border-bottom: 1px solid #e8c64e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 5px 0;
+}
+section ul.left .sec-title2 p{
+    margin-left: 20px;
+}
+section ul.left .img{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+section ul.left .img img{
+    width: 180px;
+    height:115px;
+}
+section ul.left .img span{
+    position: absolute;
+    left: 1px;
+    bottom: 5px;
+    color: white;
+    background: rgba(0,0,0,.54);
+    padding: 6px;
+}
+article section div.right {
+    position: relative;
+}
+article section div.right li{
+    text-align: center;
+    margin-left: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+article section div.right p a{
+    display: inline-block;
+    width:306px;
+    height: 211px;
+    overflow: hidden;
+
+}
+article section div.right img{
+    width:306px;
+    height: 211px;
+    transform: translate3d(-30px,0,0) scale(1.2);
+    transition: all 1s;
+    position: relative;
+
+}
+article section div.right img.animate{
+    transform: translate3d(0,0,0) scale(1);
+    transition: all 1s;
+    position: relative;
+
+}
+article section div.right div.skip{
+    position: absolute;
+    bottom: -13%;
+    left: 10%;
+}
+/*trainingTwo*/
+section ul.left .title{
+    margin: 0;
+}
+section div.right div:first-child{
+    display: flex;
+}
+section div.right div:first-child p:nth-of-type(2){
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    line-height: 40px;
+    font-size: 14px;
+}
+article section div.right a{
+    display: inline-block;
+    width: 306px;
+    height: 211px;
+    overflow: hidden;
+}
+section div.right div:first-child
+p:nth-of-type(2) span:first-child{
+    font-size: 18px;
+}
+section div.right div:first-child
+p:nth-of-type(2) span:last-child{
+    display: inline-list-item;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    font-size: 18px;
+    background: #e4c147;
+    margin-top: 10px;
+}
+section div.right div:first-child p:first-child{
+    width: 306px;
+    height: 211px;
+    border: 1px solid #ccc;
+    margin-right: 40px;
+}
+section div.right div:nth-of-type(2){
+    width: 900px;
+    height: 150px;
+    border: 1px solid #cdcdcd;
+    margin: 50px 0;
+}
+section div.right div:nth-of-type(2) p:first-child{
+    border-bottom: 1px solid #cdcdcd;
+    background: #f6f6f6;
+    font-size: 18px;
+}
+section div.right div:nth-of-type(2) p span{
+    display: inline-block;
+    width: 112px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+}
+section div.right div:nth-of-type(2) p span:nth-of-type(2){
+    background: rgb(232, 232, 232);
+}
+article div.about{
+    width: 900px;
+    height: 450px;
+    position: relative;
+    margin-bottom: 50px;
+}
+article div.about span{
+    width: 900px;
+    display:inline-block;
+    padding-left: 15px;
+    height: 50px;
+    border-left: 8px solid #e8cc0c;
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 50px;
+
+}
+article div.about input[type="text"]{
+    background: #ebd99b;
+    width: 900px;
+    height: 200px;
+    margin-top: 80px;
+    outline: none;
+    border: none;
+}
+input[type="submit"]{
+    background: #dfbf44;
+    width: 60px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*trainingThree*/
+section div.right div:nth-of-type(2){
+    font-size: 14px;
+}
+section div.right div:nth-of-type(2) p:nth-of-type(2){
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+article section  .about div{
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+article section div.right .about img{
+    width: 70px;
+    height: 70px;
+    transform: none;
+}
+article section  .about p span{
+    width: 400px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+article section  .about p:nth-of-type(2){
+    margin-top: 60px;
+    padding-left: 100px;
+}
+article section  .about p:nth-of-type(2) span{
+    width: 50px;
+    font-size: 14px;
+
+}
+article section  .about p{
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+article section div.right .about p img{
+    width: 35px;
+    height: 20px;
+}
+article section div.right .skip{
+    height: 25px;
+}
+

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+article{
+    justify-content: center;
+}
+article .wrap{
+    width: 897px;
+    margin-top: 20px;
+}
+article .wrap .imgbox img{
+    width: 897px;
+    height: 496px;
+}
+article .wrap .btn{
+    width: 797px;
+}
+article  div.right{
+    margin-left: -50px;
+}
+article  div.right ul{
+    width: 300px;
+    margin-top: 20px;
+}
+article div.right img{
+    width: 162px;
+    height: 120px;
+}
+article div.right li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+article div.right span{
+    display: inline-block;
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+article div.right span:first-child{
+    background: #EEBA00;
+}
+article div.right span:nth-of-type(2){
+    background: #F2F2F2;
+}
+article div.right li p{
+    width: 110px;
+    background: #F2F2F2;
+    font-size: 16px;
+    padding: 0 9px;
+}
+article .wrap .info{
+    position: absolute;
+    bottom: -20%;
+    opacity: 0;
+}
+article .wrap .info.on{
+    width: 867px;
+    opacity: 1;
+    background: #EEBA00;
+    padding: 15px 15px;
+    line-height: 25px;
+}
+article .wrap .info p:nth-of-type(2){
+    color: #656565;
+    font-size: 13px;
+    width: 600px;
+}
+article .wrap .info p:first-child{
+    font-size: 18px;
+}
+
+article .wrap a.link{
+    font-size: 25px;
+    color: #656565;
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+}
+article section .sec-left{
+    left: -6%;
+}
+article section ul  .sec-right{
+    right: -6%;
+}
+article section .sec-t{
+    height: 61px;
+}
+article section .sec-t ul{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+section .sec-t li:first-child{
+    width: 207px;
+    height: 61px;
+    background: url("../img/c_img/c_newTitle.png");
+}
+section .sec-t li:nth-of-type(2),
+section .sec-t li:nth-of-type(3)
+{
+    width: 47px;
+    height: 61px;
+}
+section .sec-t li:nth-of-type(2){
+    background: url("../img/c_img/c_newTitle5.png");
+}
+section .sec-t li:nth-of-type(3){
+    background: url("../img/c_img/c_newTitle4.png");
+}
+article section .sec-con ul,
+section .sec-con  li{
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+section ul a.text{
+    display: inline-block;
+    width: 108px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 5px;
+    background: #d9c018 url("../img/c_img/c_newnote.png") no-repeat 94px 6px;
+    top: 3%;
+    left: 3%;
+}
+

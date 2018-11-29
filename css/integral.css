@@ -1,0 +1,31 @@
+@charset "UTF-8";
+article section .sec-title span.title{
+    width: 575px;
+    height: 45px;
+    line-height: 45px;
+    background: #434343;
+    color: white;
+    font-size:20px;
+}
+section .goods{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+section .goods div img{
+    width: 270px;
+    height: 270px;
+}
+section .goods div p{
+    font-size: 20px;
+}
+section .goods div p:nth-of-type(3){
+    color: #cfb045;
+}
+section .goods div p:nth-of-type(4){
+    font-size: 15px;
+    color: #358;
+    text-decoration: line-through;
+}

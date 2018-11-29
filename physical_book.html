@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体质检测-预约检测</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/physical.css">
+    <link rel="stylesheet" href="./css/news.css">
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="#">返回首页</a></li>
+        <li>当前位置：<a href="#">株洲市</a></li>
+        <li><a href="#">天元区</a></li>
+        <li><a href="#">芦淞区</a></li>
+        <li><a href="#"> 荷塘区</a></li>
+        <li><a href="#">石峰区</a></li>
+        <li><a href="#">云龙示范区</a></li>
+        <li><a href="#">株洲县</a></li>
+        <li><a href="#">醴陵市</a></li>
+        <li><a href="#">攸县</a></li>
+        <li><a href="#">茶陵县</a></li>
+        <li><a href="#">炎陵县</a></li>
+    </ul>
+    <p><a href="#">登录</a><span>|</span><a href="#">免费注册</a></p>
+</header>
+<!--导航栏-->
+<nav>
+    <ul class="nav-con">
+        <li><a href=""><img src="./img/logo_name.png" alt=""></a></li>
+        <li class="nav-icon">
+            <p><a class="icon" href="#"></a><a class="icon" href="#"></a><a href="activity.html">亲子活动、精品讲座</a></p>
+            <div class="list-box">
+                <a class="icon" href="#"></a><a href="">信息资讯 INFO</a>
+                <ul class="list"  style="display: none">
+                    <li><a href="news.html">FOCUS<br>重点推荐</a></li>
+                    <li><a href="">NEW NOTISE<br>最新公告</a></li>
+                    <li><a href="">NEW INFO<br>最新资讯</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><span></span></li>
+        <li>
+            <p><a href="reserve.html">预约预订 RESERV</a></p>
+            <p><a href="training.html">培训辅导 TRAINING</a></p>
+            <p><a href="activity.html"> 活动赛事 ACTIVES GAMES</a></p>
+        </li>
+        <li><span></span></li>
+        <li>
+            <p><a href="">团队建设 TEAM</a></p>
+            <p><a href="brand.html">品牌推荐 BRAND</a></p>
+            <p><a href="achievement.html">成果展示 ACHIEVEMENT</a></p>
+        </li>
+        <li><span></span></li>
+        <li>
+            <p><a href="nmch.html">非遗传承 NMCH</a></p>
+            <p><a href="map.html">文体地图 STYLISTIC MAP</a></p>
+            <p><a href="humanities.html"> 区县人文 HUMANITIES</a></p>
+        </li>
+        <li><span></span></li>
+        <li>
+            <p><a href="art_exam.html">艺普考级 ART EXAM</a></p>
+            <p><a href="physical.html">体质监测 PHYSICAL TESTING</a></p>
+            <p><a href=""> 配送菜单 MENU</a></p>
+        </li>
+    </ul>
+</nav>
+<article>
+    <!----------------------->
+    <div class="art-hd">
+        <img src="img/h_meishi/h_logo.jpg" alt="">
+        韵动株洲 > 体质监测 > 预约检测
+        <p><span>分享到:</span> <a href=""></a><a href=""></a><a href=""></a></p>
+    </div>
+    <!----------------------->
+    <section class="info">
+        <div class="sec-left left">
+            <img src="img/c_img/c_reserve.jpg" alt="">
+        </div>
+        <div class="sec-right right">
+            <p class="title">体检说明：</p>
+            <p>为广泛开展全民健身工作，帮助人们了解自己的身体素质状况和总体评价，
+                株洲市体育产业中心国民体质监测站特推出免费国民体质监测项目，以便为
+                市民提供科学的健身指导，使市民有针对性的采取锻炼措施提高身体素质。</p>
+            <p class="title">检测流程：</p>
+            <p class="title">预约报名 - 体质监测 - 数据录入 - 综合评价报告 - 综合锻炼指导报告</p>
+            <p><b>联系地址:</b> 株洲市体育中心综合球馆北向入口处</p>
+            <p><b>咨询电话:</b> 0731 - 29687945</p>
+            <p><b>交通指南:</b> T59、T45路再天元路东下车</p>
+            <p><b>工作时间:</b> 周一 ~ 周五[法定节假日除外] 9:30-11:30 [AM] 2:30-5:00 [PM]</p>
+        </div>
+    </section>
+    <!--测试项目-->
+    <div class="testItmes">
+        <div class="tI_title">
+            <p>信息填写</p>
+        </div>
+        <form id="form" action="" method="post" onsubmit="return check()">
+            <ul class="write">
+                <li><label for="">真实姓名：</label><input type="text" id="userName" onblur="return isChinese(this.value)"><span id="s-name">*</span></li>
+                <li><label for="">联系方式：</label><input type="text" id="tel" onblur="return isNum(this)"><span id="s-tel">*</span></li>
+                <li><label for="">预约时间：</label><input type="text" id="time" onblur="return isDate(this)"><span id="s-time">*</span></li>
+                <li><label for="">身份证号：</label><input type="text" id="card" onblur="return isId(this)"><span id="s-card">*</span></li>
+                <li><input type="submit" id="submit" value="预约"></li>
+            </ul>
+        </form>
+    </div>
+</article>
+<footer>
+    <div class="f-content">
+        <div class="code">
+            <ul>
+                <li>
+                    <p><img src="./img/17.png" alt=""></br><img src="./img/11.jpg" alt=""></p>
+                </li>
+                <li>
+                    <p><img src="./img/10.png" alt=""></br><img src="./img/13.jpg" alt=""></p>
+                </li>
+            </ul>
+            <p class="declare">扫描二维码 到手机浏览</p>
+        </div>
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="./img/16.png" alt="">
+                </li>
+                <li>
+                    <p>
+                        <img src="./img/222.jpg" alt="">
+                    </p>
+                    <p>
+                        <a href="#">【半程马拉松】2018年第五届松 西子半程马拉松</a></br>
+                        <span>2018-03-19 17:00</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img src="./img/7.jpg" alt="">
+                    </p>
+                    <p>
+                        <a href="#">【骑行】捷安特周六骑行石燕湖</a></br>
+                        <span>2018-03-16 17:21</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="center">
+            <img src="./img/2.png" alt="">
+            <p>
+                <a href="#">预定场馆</a>
+                <a href="#">活动场馆</a>
+                <a href="#">非遗传承</a></br>
+                <a href="#">文体地图</a>
+                <a href="#">区县人文</a>
+            </p>
+        </div>
+
+        <div class="right">
+            <img src="./img/5.png" alt="">
+            <p>湖南省株洲市天元区体育中心东北入口</p>
+            <p><label>TEL:</label> 0731 - 28632006</p>
+            <p><label for="">E-mail: </label>service@hunanyundong.com</p>
+            <p><img src="./img/111111.jpg" alt=""></p>
+        </div>
+    </div>
+    <div class="end">
+        <p>
+            <a href="#">Home</a>::
+            <a href="#">服务条款</a>::
+            <a href="#">意见反馈</a>::
+            <a href="#">关于我们</a>
+        </p>
+        <p>
+            株洲市文体广电新闻出版局授权  Copyright &copy;2015-2017湖南韵动文化体育产业发展有限责任公司版权所有  湘ICP备15008273号
+            <a href="#"><img src="img/1.gif" alt=""></a>
+        </p>
+        <p><a href="#"><img src="img/8.png" alt=""></a></p>
+    </div>
+</footer>
+<div class="menu" style="display: none">
+    <ul>
+        <li class="first"><img src="img/11.jpg" alt=""></li>
+        <li class="flick">"扫一扫"</li>
+        <li class="line"></li>
+        <li>获得更多</li>
+        <li>意想不到</li>
+        <li>0731-28632006</li>
+        <li class="line"></li>
+    </ul>
+    <div>
+        <a href="#">
+            <img src="img/l-public-1.jpg" alt="">
+            <p>返回顶部</p>
+        </a>
+    </div>
+</div>
+
+<script>
+    /*回到顶部*/
+    (function () {
+        var oMenu = document.querySelector('.menu');
+        onscroll = function () {
+            var y = document.documentElement.scrollTop;
+            /*if(pageYOffset){
+                y = pageYOffset;
+            }else{
+                y = document.documentElement.scrollTop;
+            }*/
+            if(y>1000){
+                oMenu.style.display = "block"
+            }else {
+                oMenu.style.display = "none";
+            }
+
+
+        }
+
+    })();
+
+        var userName = document.getElementById("userName"),
+            tel = document.getElementById("tel"),
+            time = document.getElementById("time"),
+            card  =document.getElementById("card"),
+            n = document.getElementById("s-name"),
+            t = document.getElementById("s-tel"),
+            ti = document.getElementById("s-time"),
+            c = document.getElementById("s-card");
+
+    /*// 正则a-zA-Z的内容
+    var regStr=/[a-zA-Z]/;
+    // 正则0-9的内容
+    var regNum=/[0-9]/;
+    // 特殊字符
+    var fStrNum=/\W/;*/
+
+    function check() {
+            /*输入验证*/
+            if(userName.value == ""){
+                n.innerHTML = "用户名不能为空！";
+                userName.focus();
+                return false;
+            }
+            if(tel.value == ""){
+                t.innerHTML = "联系方式不能为空！";
+                tel.focus();
+                return false;
+            }
+            if(time.value == ""){
+                ti.innerHTML = "请输入预约时间!";
+                time.focus();
+                return false;
+            }if(card.value == ""){
+                c.innerHTML = "请输入身份证号码!";
+                card.focus();
+                return false;
+            }
+            check();
+        }
+
+        /*格式验证*/
+        function isChinese(obj) {
+            var reg =  /^[\u4E00-\u9FA5]{2,4}$/;
+
+            if(obj.value != "" && !reg.test(obj)){
+                n.innerHTML = "请输入中文！";
+                userName.value ="";
+            }else{
+                n.innerHTML = "格式正确";
+                n.className = "green";
+            }
+        }
+
+        function isNum(obj) {
+            var phone = /[0-9]/;
+
+            if(obj.value != "" && !phone.test(obj)){
+                t.innerHTML = "请输入数字！";
+
+            }if(obj.value.length != 11){
+                t.innerHTML = "格式不正确，请重新输入！";
+                tel.value = "";
+            }
+            else{
+                t.innerHTML = "格式正确";
+                t.className = "green";
+            }
+        }
+    /*function isDate(obj) {
+       /!* /!*var obj_value=obj.replace(/-/g,"/");*!///替换字符，变成标准格式(检验格式为：'2009-12-10')
+        var obj_value=obj.replace("-","/");//替换字符，变成标准格式(检验格式为：'2010-12-10 11:12')
+        var date1 = new Date();//当前时间
+        var date2 = new Date(Date.parse(obj_value));//预约时间
+        if( date2 < date1 ){
+            ti.innerHTML = "请输入正确的日期！"
+        }*!/
+        var date = /[0-9]/;
+
+        if(obj.value != "" && !date.test(obj)){
+            ti.innerHTML = "请输正确的日期！";
+
+        }else{
+            ti.innerHTML = "格式正确";
+            ti.className = "green";
+        }
+    }*/
+    function isId(obj) {
+        var num = /^[0-9a-zA-Z]*$/;
+
+        if(obj.value != "" && !num.test(obj)){
+            c.innerHTML = "请输身份证号码！";
+
+        }if(obj.value.length != 18){
+            c.innerHTML = "格式不正确，请重新输入！";
+            card.value = "";
+        }
+        else{
+            c.innerHTML = "格式正确";
+            c.className = "green";
+        }
+    }
+
+
+
+
+
+</script>
+</body>
+</html>

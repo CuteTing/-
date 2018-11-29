@@ -1,0 +1,149 @@
+@charset "UTF-8";
+article .art-hd{
+    width: 100%;
+    position: relative;
+}
+article .art-hd p{
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+}
+
+article .art-hd p a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+article .art-hd p a:nth-of-type(1){
+    background: url("../img/c_img/c_reservbgspr.png") -7px -85px;
+}
+article .art-hd p a:nth-of-type(2){
+    background: url("../img/c_img/c_reservbgspr.png") -7px -111px ;
+}
+article .art-hd p a:nth-of-type(3){
+    background: url("../img/c_img/c_reservbgspr.png")-7px -7px;
+}
+ .sec-left{
+     width: 900px;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-right: 70px;
+}
+.sec-left ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec-left li:first-child{
+    background: url("../img/c_img/c_newOnewifi.png") no-repeat;
+    padding-left: 30px;
+    font-size: 18px;
+    margin: 20px 0;
+    position: relative;
+    text-align: left;
+    width: 900px;
+}
+.sec-left li:first-child p:first-child{
+    font-size: 12px;
+    position: absolute;
+    right: 5%;
+    margin: 5px 0;
+}
+.sec-left li:first-child p:nth-of-type(2){
+    font-size: 14px;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+.sec-left li {
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.sec-left li span{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background: #ffc000;
+    color: red;
+    text-align: right;
+    line-height: 30px;
+    margin: 20px 700px 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.sec-left li p{
+    text-align: left;
+}
+.art-paragraph{
+    width: 1200px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+article section .art-paragraph span.p-tit{
+    width: 1200px;
+    margin: 0 auto;
+}
+.art-paragraph img{
+    width: 167px;
+    height: 156px;
+    float: left;
+    margin:0  20px;
+}
+.art-paragraph .p-info{
+    width: 1200px;
+    position: relative;
+    height: 200px;
+}
+.art-paragraph .p-info:nth-of-type(1){
+    margin-top: 20px;
+}
+.art-paragraph .p-right{
+    width: 900px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.art-paragraph .p-right p {
+    margin-bottom: 20px;
+}
+.art-paragraph .p-right p:last-child{
+    width: 900px;
+    position: absolute;
+    bottom: 16%;
+    left: 25%;
+}
+.art-paragraph .p-right p:first-child{
+    font-size: 18px;
+}
+.art-paragraph .p-right span:last-child{
+    position: absolute;
+    right: 5%;
+}
+.art-paragraph .p-right a{
+    color: red;
+}
+/*newsOne*/
+.sec-left li span.show{
+    width: 200px;
+    background: #FDEADA;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0;
+    color: black;
+    font-weight: normal;
+}
+.sec-left li:last-child p{
+    text-align: center;
+}
+.sec-left li:last-child p:last-child{
+    color: #7F7F7F;
+}
